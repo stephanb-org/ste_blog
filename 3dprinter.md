@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /3dprinter
+permalink: /3dprinter/
 title: Prusa MK3S
 ---
 
