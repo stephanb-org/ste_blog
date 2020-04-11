@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="mb-0">{{ page.title }}</h1>
+  <div class="date">
+    {{ page.date | date: "%e %B %Y" }}
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div>
+  	<h5>Like this article? <a href="https://amzn.to/2JUtMne">Shop Amazon</a> to support us.</h5>
+  </div>
+
+  
+
+  {% include disqus.html %}
+</article>

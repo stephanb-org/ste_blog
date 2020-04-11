@@ -1,0 +1,87 @@
+I"f<p><img src="/assets/img/pages/prusa-sketch.jpg" alt="prusa-i3" /></p>
+
+<p>For now, I have just posted a picture. More details will follow.</p>
+
+<p>Here is a list of prints, and their allotted time.</p>
+
+<h3 id="3d-printed-log">3D printed log</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">date</th>
+      <th style="text-align: left">file-name</th>
+      <th style="text-align: left">time</th>
+      <th style="text-align: left">material</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">2020-02-18</td>
+      <td style="text-align: left">combined 5</td>
+      <td style="text-align: left">39m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-18</td>
+      <td style="text-align: left">y-belt holder</td>
+      <td style="text-align: left">39m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-18</td>
+      <td style="text-align: left">y-belt tensioner</td>
+      <td style="text-align: left">41m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-19</td>
+      <td style="text-align: left">y-holder</td>
+      <td style="text-align: left">1h32m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-19</td>
+      <td style="text-align: left">y-belt idler</td>
+      <td style="text-align: left">1h13m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-19</td>
+      <td style="text-align: left">y-motor-holder</td>
+      <td style="text-align: left">missing</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-19</td>
+      <td style="text-align: left">x-end motor</td>
+      <td style="text-align: left">3h38m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-20</td>
+      <td style="text-align: left">x-end idler</td>
+      <td style="text-align: left">2h45m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-20</td>
+      <td style="text-align: left">z-screw-cover</td>
+      <td style="text-align: left">19m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-20</td>
+      <td style="text-align: left">z-axis-top</td>
+      <td style="text-align: left">1h29m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2020-02-20</td>
+      <td style="text-align: left">z-axis-bottom</td>
+      <td style="text-align: left">3h05m</td>
+      <td style="text-align: left">PETG-GRAY</td>
+    </tr>
+  </tbody>
+</table>
+:ET

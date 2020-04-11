@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% include meta.html %}
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+</head>
+
+<body>
+    <div class="wrapper-masthead">
+        <div class="container-jk">
+            <header class="masthead clearfix">
+                <div class="d-flex justify-content-center">
+                    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+
+                        {% assign count = 0 %}
+
+{% for post in site.posts %}
+{% assign wordCount = post.content | number_of_words %}
+  {% assign count = count | plus: wordCount %}
+{% endfor %}
+
+
+                        <p class="site-description"><a href="{{ site.baseurl }}/posts">
+                        {{ count }}</a> of 1,000,000 words written so far<a href="">
+                          <small class="font-italic" style="font-size: 80%;">
+                          what's this?
+                        </small>
+                        </a>
+                        </p> 
+                        
+                        
+                    </div>
+                </div>
+                <nav class="twelve columns" id="SiteNavigation">
+                    <a href="{{ site.baseurl }}/posts"><i class='fa fa-pencil'></i>Writings</a>
+                    <a href="{{ site.baseurl }}/projects"><i class='fa fa-folder'></i>Projects</a>
+                    <a href="{{ site.baseurl }}/collections"><i class='fa fa fa-object-group'></i>Collections</a>
+                    <a href="{{ site.baseurl }}/books"><i class='fa fa-book'></i>Reading List</a>
+                    <a href="{{ site.baseurl }}/library"><i class='fa fa-bookmark'></i>Library Books</a>
+                    <a href="{{ site.baseurl }}/3dprinter"><i class='fa fa-print'></i>3D Printer</a>
+                    <a href="{{ site.baseurl }}/about"><i class='fa fa-id-card-o'></i>About</a>
+                    <a href="{{ site.baseurl }}/contact"><i class='fa fa-envelope-open-o'></i> Contact</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div id="main" role="main" class="container-jk">
+        {{ content }}
+    </div>
+    <div class="wrapper-footer">
+        <div class="container-jk">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+        </div>
+    </div>
+    {% include analytics.html %}
+</body>
+
+</html>
