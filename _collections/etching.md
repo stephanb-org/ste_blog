@@ -22,4 +22,4 @@ Scraps, or otherwise etchings that have not been selected for showcase, have bee
 ![Travel-1](/assets/img/collections/etchings/img010.jpg)
 ![Travel-1](/assets/img/collections/etchings/img011.jpg)
 
-[back](./)
+[back](.)

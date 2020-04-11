@@ -10,4 +10,4 @@ tags: sketch
 ![Travel-1](/assets/img/collections/sketch/img020.jpg)
 ![Travel-1](/assets/img/collections/sketch/img021.jpg)
 
-[back](./)
+[back](.)
