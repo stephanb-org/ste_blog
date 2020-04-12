@@ -2,9 +2,9 @@
 layout: post
 title:  Hello, Friend.
 date:   2020-04-11
-categories: update
+categories: writing
 author: Stephan Borg
-tags: update
+tags: writing jekyll
 ---
 
 ![Portfolio-artwork](/assets/img/posts/HELLO-FRIEND.png)
