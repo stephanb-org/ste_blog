@@ -7,7 +7,6 @@ author: Stephan Borg
 tags: data 
 ---
 
-- 1,000,000 Words
 - Using Google Sheets to scrape data
 - LiDAR - the most underutilised dataset
 - What is Jekyll?
@@ -24,3 +23,17 @@ tags: data
 - Robot Changing Colors
 - Prusa 3D Printer
 - Model Making
+- Using basecamp
+- Bullet Journal
+- Using a DSLR as a webcam
+- Chemicals for 3D Printing
+- FIMBank Model
+- 3D printing mobile parts
+- 3D printing - phone holder
+- 3D printing - iPad holder
+- including equations on my blog
+- 3D printing - bottle holder
+
+
+- Bending Moment equations
+- Resources
