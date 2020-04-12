@@ -2,10 +2,9 @@
 layout: post
 title:  Hello, Friend.
 date:   2020-04-11
-categories: initial commit
+categories: update
 author: Stephan Borg
-tags: initial commit
-
+tags: update
 ---
 
 ![Portfolio-artwork](/assets/img/posts/HELLO-FRIEND.png)
