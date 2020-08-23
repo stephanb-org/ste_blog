@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Portfolio-artwork](/assets/img/home-1.jpg)
 
-I am a postgraduate student at University of Malta reading for an M.Eng in Structural Engineering.
+I am a postgraduate student at University of Malta reading for an M.Eng in Structural Engineering, whilst working with SAS Malta.
 
 I have a particular interest in parametric architecture and the integration of organic forms. In the past 5 years I have worked along side reputable architects and engineers which has given me experience and know-how in vast aspects of civil engineering.
 
@@ -16,6 +16,7 @@ Recently, I have worked with FabLab Valletta to design and build a representatio
 	<h3>Companies and professionals I have worked with</h3>
 </div>
 <div class="col-md-12">
+	<a href="https://sasmalta.com/">SAS Malta</a><br>
 <a href="https://www.linkedin.com/company/joe-bugeja-associates/about/">JB Associates, Achitects and Civil Engineers</a><br>
 <a href="http://www.jamesdingli.com.mt/index.html">Perit James Dingli</a><br>
 Perit Daniel Attard<br>
