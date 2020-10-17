@@ -38,18 +38,17 @@ forms: true
     </div>
   </div>
   <br>
-  <div id="success"></div>
-  <div class="form-group">
+  
+<div class="form-group">
     <button type="submit" class="btn btn-primary" id="sendMessageButtonxxx">Send</button>
   </div>
+  <div id="success"></div>
   <!-- Don't forget to set the Recaptcha Private key on the Form Settings tab. --> 
   <div class="g-recaptcha" data-sitekey="6Lccc9gZAAAAAKaSOY70c5qeSZQKkxPezxxJq5DT"></div>
+
 </form>
+  
 
-
-Please direct all inquiries to <a href="mailto:{{site.email}}">{{site.email}}</a> or else use the contact form below:<br>
-<br>
-<hr>
 
 
 {% if page.forms[0] %}{% include form.html form="1" %}{% endif %}
